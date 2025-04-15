@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MARS IT Calculator</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MARS IT Calculator</h1>
+    <input type="number" id="num1" placeholder="Birinchi son">
+    <input type="number" id="num2" placeholder="Ikkinchi son">
+
+    <div class="buttons">
+      <button onclick="calculate('add')">Yig'indi</button>
+      <button onclick="calculate('subtract')">Ayirma</button>
+      <button onclick="calculate('multiply')">Ko'paytma</button>
+      <button onclick="calculate('divide')">Bo'linma</button>
+    </div>
+
+    <h2 id="result">Natija: </h2>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
